@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+    <!-- <script src="./index.js"></script> -->
+  </head>
+  <body>
+    <h1>Password Generator</h1>
+    <div class="copy">
+      <input type="text" />
+      <button>
+        <img
+          src="https://www.freeiconspng.com/thumbs/copy-icon/copy-icon-25.png"
+          alt=""
+        />
+      </button>
+    </div>
+    <div class="instruction">
+      <label for="length"
+        >Password Length:<strong>(**8-50 characters**)</strong></label
+      >
+      <input type="number" id="length" min="8" max="20" />
+    </div>
+    <div class="checkbox">
+      <input type="checkbox" checked="" /><label>Include upper case</label
+      ><br /><input type="checkbox" checked="" /><label
+        >Include lower case</label
+      ><br /><input type="checkbox" checked="" /><label>Include numbers</label
+      ><br /><input type="checkbox" checked="" /><label>Include symbols</label
+      ><br /><button>Generate Password</button>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+  
+</html>
